@@ -9,7 +9,7 @@ public class MyProject {
     static Scanner userinput = new Scanner(System.in); 
     
     //Create the function that converts various temperatures (I will leave the other options there still to
-    //demonstrate the functionality of the same method for different purposes
+    //demonstrate the functionality of the same method for different purposes)
     static double convertFromCelcius(String to, double temp) {
 		double answer = temp;
 		if (to.charAt(0) == 'f') {
